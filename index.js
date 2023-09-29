@@ -7,35 +7,35 @@ Se XP for entre 8.001 e 9.000 = Ascendente
 Se XP for entre 9.001 e 10.000= Imortal
 Se XP for maior ou igual a 10.001 = Radiante */
 
-let nomeHeroi 
-let quantidadeXP
-let nivelHeroi 
-const menssagem = "O Herói de nome" + nomeHeroi + "está no nível " + nivelHeroi
+let nomeHeroi = "Sova"
+let quantidadeXP = 5000
+let nivelHeroi = ["Bronze", "Ferro", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
+const menssagem = "O Herói de nome " + nomeHeroi + " está no nível "
 
-if (quantidadeXP <1.000) {
+if (quantidadeXP <1000) {
     nivelHeroi= "Bronze"
-    console.log (menssagem)
-}  else if ((quantidadeXP >=1.001) && (quantidadeXP <=2.000)) {
+    console.log (menssagem + nivelHeroi)
+}  else if ((quantidadeXP >=1001) && (quantidadeXP <=2000)) {
     nivelHeroi = "Ferro"
-    console.log (menssagem)
-} else if ((quantidadeXP >=2.001) && (quantidadeXP <=5.000)) {
+    console.log (menssagem +nivelHeroi)
+} else if ((quantidadeXP >=2001) && (quantidadeXP <=5000)) {
     nivelHeroi = "Prata"
-    console.log (menssagem)
-} else if ((quantidadeXP >=6.001) && (quantidadeXP <=7.000)) {
+    console.log (menssagem + nivelHeroi)
+} else if ((quantidadeXP >=6001) && (quantidadeXP <=7000)) {
     nivelHeroi = "Ouro"
-    console.log (menssagem)
-} else if ((quantidadeXP >=7.001) && (quantidadeXP <=8.000)) {
+    console.log (menssagem + nivelHeroi)
+} else if ((quantidadeXP >=7001) && (quantidadeXP <=8000)) {
     nivelHeroi = "Platina"
-    console.log (menssagem)
-} else if ((quantidadeXP >=8.001) && (quantidadeXP <=9.000)) {
+    console.log (menssagem + nivelHeroi)
+} else if ((quantidadeXP >=8001) && (quantidadeXP <=9000)) {
     nivelHeroi = "Ascendente"
-    console.log (menssagem)
-}  else if ((quantidadeXP >=9.001) && (quantidadeXP <=10.000)) {
+    console.log (menssagem + nivelHeroi)
+}  else if ((quantidadeXP >=9001) && (quantidadeXP <=10000)) {
     nivelHeroi = "Imortal"
-    console.log (menssagem)
+    console.log (menssagem + nivelHeroi)
 } else {
     nivelHeroi = "Radiante"
-    console.log (menssagem)
+    console.log (menssagem + nivelHeroi)
 }
 
 
